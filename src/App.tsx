@@ -1,7 +1,5 @@
 import useVerificationHook from "./lib/useVerificationCode";
-import type { InputState } from "./lib/useVerificationCode";
 import "./style.css";
-import { useState } from "react";
 
 function App() {
   const { code, inputStates, inputClass, handleChange, handleKeyDown } =
